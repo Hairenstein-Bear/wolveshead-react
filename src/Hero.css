@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.imageWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.imageWrap img{
+    width: 80%;
+    max-height: 70vh;
+
+}
+@media screen and (max-width: 900px) {
+    .imageWrap img{
+        width: 100%;
+    }
+    
+}
