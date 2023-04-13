@@ -1,19 +1,51 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .imageWrap{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: black;
+    position: relative;
 }
-.imageWrap img{
+.imageWrap #image{
     width: 80%;
     max-height: 70vh;
 
 }
+.photoNavigate{
+    overflow-y: hidden;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    /* width: 19%; */
+    opacity: 0;
+    margin: 0 .5em;
+}
+.photoNavigate:hover{
+    transition: .5s;
+    opacity: 70%;
+    /* width: 15%; */
+    background-color: black;
+}
+.photoNavigate img{
+    /* left: 0; */
+    /* padding: 1em; */
+    margin: 0 .2em;
+}
+#leftArrow{
+    rotate: 180deg;
+    left: -.5em;
+}
+#rightArrow{
+    right: -.5em;
+}
 @media screen and (max-width: 900px) {
-    .imageWrap img{
+    .imageWrap #image{
         width: 100%;
     }
     

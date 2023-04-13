@@ -1,0 +1,16 @@
+.aboutWrapper{
+    background-color: #A3B7C4ff;
+    display: flex;
+    justify-content: center;
+    border-top: black 10px solid;
+}
+.aboutText{
+    font-size: 1.2rem;
+    max-width: 800px;
+    width: 80%;
+    margin: 2em 0;
+}
+.aboutText p{
+    margin-top: 1em;
+    color: black;
+}

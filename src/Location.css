@@ -1,0 +1,69 @@
+.locationWrapper{
+    background-color: darkgrey;
+    border-top: black 10px solid;
+    border-bottom: black 10px solid;;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.googleMap{
+    margin: 1em;
+    width: 400px;
+    height: 350px;
+}
+.locationImage{
+    margin: 1em;
+}
+.locationImage img{
+    border-radius: 20%;
+}.textWrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+    margin: 0;
+    justify-content: space-between;
+    gap: 5em;
+    text-align: center;
+    position: relative;
+}
+.textWrap h2{
+    text-decoration: underline;
+}
+.address{
+    /* padding: 1em; */
+    min-width:320px;
+}
+.address p{
+    font-size: 1.3rem;
+    color: black;
+    margin: 1em 0;
+}
+.hours{
+
+    min-width: 300px;
+}
+.hours p{
+    margin: 1em 0;
+    font-size: 1.3rem;
+    color: black;
+}
+@media screen and (max-width: 900px) {
+    .address{
+        min-width: 200px;
+    }
+    .hours{
+        min-width: 150px;
+    }
+    .textWrap{
+        justify-content: center;
+        gap: 2em;
+    }
+    .googleMap{
+        width: 300px;
+
+    }
+}
