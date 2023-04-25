@@ -1,0 +1,26 @@
+body{
+    background-color: brown;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#menuBody{
+  background-color: black;
+}
+.menuWrap{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menuWrap img{
+    /* flex-shrink: 20; */
+  /* width: 800px; */
+  /* border: solid black 2px; */
+  /* width: 500px; */
+  max-width: 100%;
+}
+.menuContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
