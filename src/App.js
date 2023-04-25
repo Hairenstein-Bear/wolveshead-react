@@ -20,8 +20,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Header />} />
-          {/* <Route path="/location" element={<Location/>} /> */}
-          {/* <Route path="#specials" element={<App />} /> */}
         </Route>
       </Routes>
     <div>
