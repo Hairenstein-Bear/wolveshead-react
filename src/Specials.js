@@ -7,7 +7,7 @@ function Specials() {
             <div className='specialsImage' id="leftWolf">
                 <img src={wolf}/>
             </div>
-            <div className="specialsText">
+            <div className="specialsText" id="specials">
                 <h2>Specials</h2>
                 <p>Rotating soup of the day and daily specials.</p><br/>
                 <p>Monday:$9.99 Cheese Bar pie and a pint of Bud Lt</p>

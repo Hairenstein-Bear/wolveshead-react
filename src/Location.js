@@ -11,8 +11,8 @@ function Location() {
     timeoutId = setTimeout(swapImage,10000);
     return(
         <div className='locationWrapper'>
-            <div className='mapWrap'>
-                <iframe className='googleMap' src=""></iframe>
+            <div className='mapWrap' id="location">
+                <iframe className='googleMap' src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJFdH71Ko7w4gRPzIOKegOlxc&key=AIzaSyDwbBSaPhowrit2pCNHB5WK_1x_zEEKQ7Y"></iframe>
             </div>
             <div className='textWrap'>
                 <div className='address'>

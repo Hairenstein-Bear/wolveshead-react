@@ -1,0 +1,57 @@
+@keyframes slideThrough{
+    from {left: 0%;}
+    to {left: -116%;}
+}
+.galleryWrap{
+    background-color: darkgray;
+    border-bottom: black 10px solid;
+}
+.sliderWrap{
+    display: flex;
+    gap: 2.5em;
+}
+.photoWrap{
+    width: 100%;
+    animation: slideThrough 60s linear infinite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 16.6%;
+    margin: 1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    /* gap: 1em; */
+    /* flex-wrap: nowrap; */
+    /* animation-duration: 5s ease forwards; */
+    
+}
+.photo img{
+    width: 100%;
+    min-width: 200px;
+    margin: 0 1.5em;
+}
+@media screen and (max-width:1500px){
+    @keyframes slideThroughSmall{
+        from {left: -2%;}
+        to {left: -206.5%;}
+    }
+    .photoWrap{
+        animation: slideThroughSmall 60s linear infinite;
+    }
+    .photo img{
+        margin: 0 3em;
+        padding: 0 1em;
+    }
+}
+@media screen and (max-width: 650px) {
+    .galleryWrap{
+        display: none;
+    }
+}

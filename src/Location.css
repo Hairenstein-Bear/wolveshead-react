@@ -1,7 +1,7 @@
 .locationWrapper{
     background-color: darkgrey;
     border-top: black 10px solid;
-    border-bottom: black 10px solid;;
+    border-bottom: black 10px solid;
     display: flex;
     align-items: center;
     flex-direction: row;

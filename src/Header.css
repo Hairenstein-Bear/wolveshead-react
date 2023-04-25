@@ -34,7 +34,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
 }
 .linkContainer ul{
     display: flex;
@@ -51,12 +50,13 @@
     z-index: 2;
 }
 .linkContainer a:hover{
-    opacity: .5;
-    
+    color: black;
+}
+.drop:hover{
+    cursor: default;
 }
 .drop:hover .dropDown{
     animation: slideDown 1s forwards;
-    
 }
 .dropDown{
     /* opacity: 0; */
@@ -65,7 +65,7 @@
     width: 5em;
     height: 0em;
     overflow: hidden;
-    z-index: -1;
+    z-index: 0;
 }
 .dropDown a:hover{
     animation: slideDown;
@@ -73,9 +73,6 @@
     opacity: 1;
     color: black;
 }
-/* .dropDown:hover{
-    opacity: 1;
-} */
 .logoContainer{
     /* margin: 0 2em; */
     display: flex;
@@ -88,11 +85,15 @@
     max-width: 320px;
     margin-bottom: .5em;
 }
-.logoContainer img{
+#wolvesLogo{
     /* width: 100%; */
     display: block;
     max-width: 250px;
-    margin: 1em 0;
+    margin: 1em .5em;
+}
+.logoLink img{
+    margin: 0 .4em;
+    width: 50px;
 }
 @media screen and (max-width:1150px) {
     .headerWrap{
@@ -109,11 +110,15 @@
     }
     .linkContainer ul{
         gap: 4em;
+        margin-bottom: 1em;
     }
 }
 @media screen and (max-width:500px){
     .linkContainer ul{
         gap: 1em;
+    }
+    .logoLink img{
+        margin: 0 .2em;
     }
     
 }

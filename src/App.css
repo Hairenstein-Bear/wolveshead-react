@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "hammersmith";
+  src: local("hammersmithOne"),
+  url("./font/HammersmithOne-Regular.ttf") format("truetype");
+}
+
+body{
+  overflow-x: hidden;
+  font-family: "hammersmith";
+}
 .App {
   text-align: center;
+  
 }
 
 

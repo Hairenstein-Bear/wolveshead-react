@@ -1,0 +1,38 @@
+.footerWrap{
+    background-color: brown;
+}
+.footerNav{
+    /* display: inline */
+    border-bottom: 2px solid black ;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1em;
+}
+.footerNav ul{
+    flex-wrap: wrap;
+    padding: 1em 0;
+    display: inline-flex;
+    gap: 2em;
+    list-style-type: none;
+    
+}
+.footerNav a:hover{
+    opacity: .5;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .5em 0;
+}
+@media screen and (max-width: 625px){
+    .footerNav ul{
+        justify-content: center;
+        gap: 1em;
+        width: 40%;
+    }
+}
