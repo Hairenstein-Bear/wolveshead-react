@@ -9,8 +9,8 @@ function infoBox() {
             </div>
             <a href="https://onlineordering.rmpos.com/Order/(S(f1vbsuxmgmpet5s0ds3xl2yr))/?wci=3i10pa5t&fbclid=IwAR0CsekVpbnW5XjUu_yYEQEZxVWdBZa_j2AAVY3quQWPSgrkS5zbzp2s4WA">
                 <div className="orderLink">
-                Order Now
-            </div>
+                    Order Now
+                </div>
             </a>
             <div className="info" id="right">
                 <h4>Visit us at:</h4>

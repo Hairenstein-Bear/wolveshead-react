@@ -3,6 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+@keyframes gradient-swoosh{
+    0%{
+        background: #b1613a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(124, 30, 30), #b1613a);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #833421, rgb(124, 30, 30));
+    }
+    20%{
+        background: #b1613a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(134, 43, 35), #b1613a 40%);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #993c25, rgb(124, 30, 30) 80%);
+    }
+    40%{
+        background: #b1613a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(144, 56, 40), #b1613a 30%);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #993c25, rgb(124, 30, 30) 60%);
+    }
+    60%{
+        background: #b1613a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(154, 69, 45), #b1613a 20%);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #993c25, rgb(124, 30, 30) 40%);
+    }
+    80%{
+        background: #b1613a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(164, 82, 50), #b1613a 10%);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #993c25, rgb(124, 30, 30) 20%, #993c25 99%);
+    }
+    100%{
+        background: #993c25;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(164, 82, 50), #b1613a 10%);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(120deg, rgb(124, 30, 30), #993c25 30%); 
+    }
+
+}
 .infoWrap{
     background-color: brown;
     display: flex;
@@ -27,15 +60,20 @@
 .orderLink{
     /* margin: 1em; */
     padding: 1.5em;
-    background-color: burlywood;
+    background: #965230;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, brown, #965230);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #993c25, rgb(124, 30, 30)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 50%;
     box-shadow: .1em .1em .5em .01em black;
     /* max-width: 200px; */
     text-align: center;
+    overflow: hidden;
 }
 .orderLink:hover{
-    box-shadow: 0 0 0 0;
+    animation: gradient-swoosh ease .2s forwards;
+    /* box-shadow: 0 0 0 0; */
     opacity:90%;
+    box-shadow: .05em .05em .25em .01em black;
     /* font-size: 1.1rem; */
 }
 @media screen and (max-width: 1100px) {
