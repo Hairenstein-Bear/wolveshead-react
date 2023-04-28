@@ -9,7 +9,7 @@ function Footer() {
                     <li><a href="/">Home</a></li>
                     <li><a href="http://wolvesheadpizza.com/career.html">Careers</a></li>
                     <li><a href="http://order.wolvesheadpizza.com">Order Online</a></li>
-                    <li><a href="https://calendar.online/9b041fcd9fd7d0af66f2">Event Calendar</a></li>
+                    <li><a href="https://calendar.online/28b6936c65032fdbcc37">Event Calendar</a></li>
                     <li><a href="http://wolvesheadpizza.com/menu.html">Menu</a></li>
                     <li><a href="http://wolvesheadpizza.com/taplist">Tap List</a></li>
                 </ul>
