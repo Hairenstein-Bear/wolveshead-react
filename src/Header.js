@@ -16,7 +16,7 @@ function Header() {
                         <li><a href="#location">Find Us</a></li>
                         <li class="drop">Menu
 
-                        <div className="dropDown"><a href="https://app.pourwall.com/embed/63d41d5bc99d5400084b1558/backgroundColor=ffffff&foregroundColor=3c3c3c&foregroundColor2=8A8A8A&primaryFont=Open%20Sans&secondaryFont=Unica%20One&showTapNumber=true&showBeverageImage=true&showServings=true&sortTapsBy=handle"> Beer List</a><br/><a href="http://wolvesheadpizza.com/menu.html">Menu</a></div></li>
+                        <div className="dropDown"><a href="https://taplist.wolvesheadpizza.com">Menu</a></div></li>
                     </ul>
                 </div>
                 <div className="logoContainer">
@@ -27,7 +27,7 @@ function Header() {
                 </div>
                 <div className="linkContainer" id="right">
                     <ul>
-                        <li><a href="https://calendar.online/9b041fcd9fd7d0af66f2">Events</a></li>
+                        <li><a href="https://calendar.online/28b6936c65032fdbcc37">Events</a></li>
                         <li><a href="#specials">Specials</a></li>
                         <li><a href="http://wolvesheadpizza.com/contact.html">Contact</a></li>
                     </ul>
