@@ -112,6 +112,9 @@
         gap: 4em;
         margin-bottom: 1em;
     }
+    .drop:hover .dropDown{
+        animation: slideDown .2s forwards;
+    }
 }
 @media screen and (max-width:500px){
     .linkContainer ul{

@@ -3,7 +3,9 @@
   src: local("hammersmithOne"),
   url("./font/HammersmithOne-Regular.ttf") format("truetype");
 }
-
+html{
+  overflow-x: hidden;
+}
 body{
   overflow-x: hidden;
   font-family: "hammersmith";

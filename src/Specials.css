@@ -41,9 +41,9 @@
     }
     .specialsText{
         max-width: 80%;
-        /* padding: 2em; */
+        /* padding: 2em 0; */
     }
-    /* .specialsText p{
-        margin: .5em;
-    } */
+    .specialsText p{
+        margin: 0 0 1em 0;
+    }
 }
